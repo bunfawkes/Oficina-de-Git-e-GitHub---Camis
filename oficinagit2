@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+    
+    //declaracao de variaveis
+    float nota1, nota2, media;
+
+    printf("\nInforme a primeira nota. ");
+    scanf("%f", &nota1);
+    printf("\nInforme a segunda nota. ")
+    scanf("%f", $nota2);
+
+    media = (nota1 + nota2)/2;
+
+    if (media >= 6){
+        printf("Aprovado!");
+    }else{
+        printf("De recuperacao!");
+    }
+
+    printf("A media eh: ", media);
+
+    return 0;
+
+
+}
